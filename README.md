@@ -6,6 +6,8 @@ Current scMitoCrypt repository being used by group: [https://github.com/SystemsA
 
 WIP: scMitoCrypt porting to Nextflow: [https://github.com/cosmicbhejafry/scMitoCrypt-nextflow](https://github.com/cosmicbhejafry/scMitoCrypt-nextflow)
 
+Post-Processing code: [https://github.com/cosmicbhejafry/local_helper_functions_test/](https://github.com/cosmicbhejafry/local_helper_functions_test/)
+
 ## Chapter 4:
 
 WIP: Current active PySPoC repository: [https://github.com/cosmicbhejafry/py-spoc](https://github.com/cosmicbhejafry/py-spoc)
