@@ -1,0 +1,80 @@
+statistic_categories,,stat / reducedstat,reducer
+Clustering,Pairwise cluster similarity,DBScanSimilarity,"{'EntryWiseMatrixNorm', 'Norm', 'SchattenNorm', 'SvdAMGMRatio', 'EffectiveRank', 'StableRank', 'Determinant'}"
+,,KMeansSimilarity,"{'SingularValues', 'SummaryOfMoments', 'EntryWiseMatrixNorm', 'Norm', 'SchattenNorm', 'SvdAMGMRatio', 'EffectiveRank', 'StableRank', 'Determinant', 'MaxCovPerFeature'}"
+,,KMedoidsSimilarity,"{'SingularValues', 'SummaryOfMoments', 'EntryWiseMatrixNorm', 'Norm', 'SchattenNorm', 'SvdAMGMRatio', 'EffectiveRank', 'StableRank', 'Determinant', 'MaxCovPerFeature'}"
+,Cluster compactness and separation,KMeansDispersionSummaries,
+,,KMeansInertia,
+,,KMeansSILScores,
+,,KMedoidsDispersionSummaries,
+,,KMedoidsInertia,
+,,KMedoidsSILScores,
+Density,Distance distribution summaries,CentroidDistanceDistributionCompare,
+,,DistanceDistributionBasicSummarize,
+,,DistanceDistributionModesSummarize,
+Density,Pairwise distribution divergences,GromovWassersteinTau,"{'SummaryOfMoments', 'EntryWiseMatrixNorm', 'Norm', 'SchattenNorm', 'Determinant', 'MaxCovPerFeature'}"
+,,KullbackLeiblerDivergence,"{'SummaryOfMoments', 'EntryWiseMatrixNorm', 'Norm', 'SchattenNorm', 'Determinant', 'MaxCovPerFeature'}"
+,,PairwiseWassersteinDistance,"{'SummaryOfMoments', 'EntryWiseMatrixNorm', 'Norm', 'SchattenNorm', 'Determinant', 'MaxCovPerFeature'}"
+,,PairwiseQuantileDistance,"{'SummaryOfMoments', 'EntryWiseMatrixNorm', 'Norm', 'SchattenNorm', 'Determinant', 'MaxCovPerFeature'}"
+,Distance distribution summaries,PairwiseDistance,"{'SummaryOfMoments', 'EntryWiseMatrixNorm', 'Norm', 'SchattenNorm', 'Determinant', 'MaxCovPerFeature'}"
+Dimensionality,Fractal dimension,CorrelationSum,
+,Structure preservation after dimensionality reduction,DimReductionStatistics,
+,Intrinsic dimension,KNNintrinsicDimStatistics,
+Dimensionality,Effective dimensionality of pairwise statistics,SpearmanR,"{'SingularValues', 'EffectiveRank', 'StableRank'}"
+,,OAS,"{'SingularValues', 'EffectiveRank', 'StableRank'}"
+,,LedoitWolf,"{'SingularValues', 'EffectiveRank', 'StableRank'}"
+,,KendallTau,"{'SingularValues', 'EffectiveRank', 'StableRank'}"
+,,ShrunkCovariance,"{'SingularValues', 'EffectiveRank', 'StableRank'}"
+,,EllipticEnvelope,"{'SingularValues', 'EffectiveRank', 'StableRank'}"
+,,PowerEnvelopeCorrelation,"{'SingularValues', 'EffectiveRank', 'StableRank'}"
+,,HilbertSchmidtIndependenceCriterion,"{'SingularValues', 'EffectiveRank', 'StableRank'}"
+,,MutualInformation,"{'SingularValues', 'EffectiveRank', 'StableRank'}"
+,,GromovWassersteinTau,"{'SingularValues', 'EffectiveRank', 'StableRank'}"
+,,KullbackLeiblerDivergence,"{'SingularValues', 'EffectiveRank', 'StableRank'}"
+,,PairwiseQuantileDistance,"{'SingularValues', 'EffectiveRank', 'StableRank'}"
+,,PairwiseWassersteinDistance,"{'SingularValues', 'EffectiveRank', 'StableRank'}"
+,,PairwiseDistance,"{'SingularValues', 'EffectiveRank', 'StableRank'}"
+,,LinearRegressorError.Lasso,"{'SingularValues', 'EffectiveRank', 'StableRank'}"
+,,LinearRegressorError.LinearRegression,"{'SingularValues', 'EffectiveRank', 'StableRank'}"
+,,LinearRegressorError.RidgeCV,"{'SingularValues', 'EffectiveRank', 'StableRank'}"
+Graph_Structure,Summaries of inferred feature graphs,DirectLiNGAMCausalGraph,"{'GraphPeripheryCount', 'GraphDegreeSummary', 'DAGTopologicalDepth', 'DiGraphStrengthSummary', 'GraphKCoreSummary', 'DAGLongestPathLength', 'GraphLocalEfficiency', 'GraphBridgeCount', 'GraphDiameter', 'GraphGlobalEfficiency', 'GraphRadius', 'GraphCentreSize', 'GraphEdgeCount', 'DiGraphDirectedDegreeSummary'}"
+,,ICALiNGAMCausalGraph,"{'GraphPeripheryCount', 'GraphDegreeSummary', 'DiGraphStrengthSummary', 'GraphKCoreSummary', 'GraphLocalEfficiency', 'GraphBridgeCount', 'GraphDiameter', 'GraphGlobalEfficiency', 'GraphRadius', 'GraphCentreSize', 'GraphEdgeCount', 'DiGraphDirectedDegreeSummary'}"
+,,ChowLiuTree,"{'GraphPeripheryCount', 'GraphDegreeSummary', 'GraphDiameter', 'GraphGlobalEfficiency', 'GraphRadius', 'GraphCentreSize'}"
+,,PCCausalGraph,"{'GraphPeripheryCount', 'GraphDegreeSummary', 'GraphKCoreSummary', 'GraphLocalEfficiency', 'GraphBridgeCount', 'GraphDiameter', 'GraphGlobalEfficiency', 'GraphRadius', 'GraphCentreSize', 'GraphEdgeCount'}"
+,,RegressionGraph,"{'GraphPeripheryCount', 'GraphDegreeSummary', 'GraphKCoreSummary', 'GraphLocalEfficiency', 'GraphBridgeCount', 'GraphDiameter', 'GraphGlobalEfficiency', 'GraphRadius', 'GraphCentreSize', 'GraphEdgeCount'}"
+,Summaries of pairwise dependence directionality,RegressionErrorCausalInference,"{'SingularValues', 'SummaryOfMoments', 'EntryWiseMatrixNorm', 'Norm', 'SchattenNorm', 'SvdAMGMRatio', 'EffectiveRank', 'StableRank', 'Determinant', 'MaxCovPerFeature'}"
+,,InformationGeometricConditionalIndependence,"{'SingularValues', 'SummaryOfMoments', 'EntryWiseMatrixNorm', 'Norm', 'SchattenNorm', 'SvdAMGMRatio', 'EffectiveRank', 'StableRank', 'MaxCovPerFeature'}"
+Pairwise_Dependence,"Strength and distribution of pairwise dependence- linear, rank based, non-linear",EllipticEnvelope,"{'SummaryOfMoments', 'EntryWiseMatrixNorm', 'Norm', 'SchattenNorm', 'Determinant', 'MaxCovPerFeature'}"
+,,HilbertSchmidtIndependenceCriterion,"{'SummaryOfMoments', 'EntryWiseMatrixNorm', 'Norm', 'SchattenNorm', 'Determinant', 'MaxCovPerFeature'}"
+,,KendallTau,"{'SummaryOfMoments', 'EntryWiseMatrixNorm', 'Norm', 'SchattenNorm', 'Determinant', 'MaxCovPerFeature'}"
+,,LedoitWolf,"{'SummaryOfMoments', 'EntryWiseMatrixNorm', 'Norm', 'SchattenNorm', 'Determinant', 'MaxCovPerFeature'}"
+,,LinearRegressorError.LinearRegression,"{'SummaryOfMoments', 'EntryWiseMatrixNorm', 'Norm', 'SchattenNorm', 'Determinant', 'MaxCovPerFeature'}"
+,,LinearRegressorError.RidgeCV,"{'SummaryOfMoments', 'EntryWiseMatrixNorm', 'Norm', 'SchattenNorm', 'Determinant', 'MaxCovPerFeature'}"
+,,MutualInformation,"{'SummaryOfMoments', 'EntryWiseMatrixNorm', 'Norm', 'SchattenNorm', 'Determinant', 'MaxCovPerFeature'}"
+,,OAS,"{'SummaryOfMoments', 'EntryWiseMatrixNorm', 'Norm', 'SchattenNorm', 'Determinant', 'MaxCovPerFeature'}"
+,,PowerEnvelopeCorrelation,"{'SummaryOfMoments', 'EntryWiseMatrixNorm', 'Norm', 'SchattenNorm', 'Determinant', 'MaxCovPerFeature'}"
+,,ShrunkCovariance,"{'SummaryOfMoments', 'EntryWiseMatrixNorm', 'Norm', 'SchattenNorm', 'Determinant', 'MaxCovPerFeature'}"
+,,SpearmanR,"{'SummaryOfMoments', 'EntryWiseMatrixNorm', 'Norm', 'SchattenNorm', 'Determinant', 'MaxCovPerFeature'}"
+,,LinearRegressorError.Lasso,"{'SummaryOfMoments', 'EntryWiseMatrixNorm', 'Norm', 'SchattenNorm', 'MaxCovPerFeature'}"
+Symmetry,Invariance under orthogonal transformations,EigenIsotropy,
+,,GivensEmpiricalIsotropy,
+,,GlobalCentroidDiffs,
+,,HarrEmpiricalIsotropy,
+,,HouseholderEmpiricalIsotropy,
+Symmetry,Spectral isotropy of pairwise matrices,EllipticEnvelope,{'SvdAMGMRatio'}
+,,GromovWassersteinTau,{'SvdAMGMRatio'}
+,,HilbertSchmidtIndependenceCriterion,{'SvdAMGMRatio'}
+,,KendallTau,{'SvdAMGMRatio'}
+,,KullbackLeiblerDivergence,{'SvdAMGMRatio'}
+,,LedoitWolf,{'SvdAMGMRatio'}
+,,LinearRegressorError.Lasso,{'SvdAMGMRatio'}
+,,LinearRegressorError.LinearRegression,{'SvdAMGMRatio'}
+,,LinearRegressorError.RidgeCV,{'SvdAMGMRatio'}
+,,MutualInformation,{'SvdAMGMRatio'}
+,,OAS,{'SvdAMGMRatio'}
+,,PairwiseDistance,{'SvdAMGMRatio'}
+,,PairwiseQuantileDistance,{'SvdAMGMRatio'}
+,,PairwiseWassersteinDistance,{'SvdAMGMRatio'}
+,,PowerEnvelopeCorrelation,{'SvdAMGMRatio'}
+,,ShrunkCovariance,{'SvdAMGMRatio'}
+,,SpearmanR,{'SvdAMGMRatio'}
+Topology,,PersistentEntropyLandscapeApprox,
