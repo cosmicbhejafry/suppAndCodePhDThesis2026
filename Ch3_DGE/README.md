@@ -1,1 +1,1 @@
-
+The excel file contains supplementary information for the subpanels A, B and C in figure 4 – each sheet is labelled with the corresponding subfigure. The file contains the sample sizes and SMD pre & post subsampling for fig4A, it also contains full gene lists for fig 4A and 4C – summarized across the subsamples and contains the full list of GO terms obtained for fig 4B. 
