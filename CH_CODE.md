@@ -2,9 +2,9 @@
 
 ## Chapter 2:
 
-Current scMitoCrypt repository being used by group: [https://github.com/SystemsAndSignalsGroup/GEO-GUESS](https://github.com/SystemsAndSignalsGroup/GEO-GUESS)
+WIP: scMitoCrypt porting to Nextflow (public): [https://github.com/cosmicbhejafry/scMitoCrypt-nextflow](https://github.com/cosmicbhejafry/scMitoCrypt-nextflow)
 
-WIP: scMitoCrypt porting to Nextflow: [https://github.com/cosmicbhejafry/scMitoCrypt-nextflow](https://github.com/cosmicbhejafry/scMitoCrypt-nextflow)
+Current scMitoCrypt repository being used by group: [https://github.com/SystemsAndSignalsGroup/GEO-GUESS](https://github.com/SystemsAndSignalsGroup/GEO-GUESS)
 
 Post-Processing code: [https://github.com/cosmicbhejafry/local_helper_functions_test/](https://github.com/cosmicbhejafry/local_helper_functions_test/)
 
